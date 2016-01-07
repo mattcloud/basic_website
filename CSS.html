@@ -8,10 +8,21 @@
 
     <style type="text/css">
 
-        p {
-            color:red;
+        .large {
+            font-size:300%;
         }
 
+        #green {
+            color:green;
+        }
+
+        .underline {
+            text-decoration:underline;
+        }
+
+        .bold {
+            font-weight:bold;
+        }
 
     </style>
 
@@ -21,9 +32,11 @@
 
 <body>
 
-    <p>This is some text.</p>
+    <p class="large">This is some text.</p>
 
-    <p>This is some more text.</p>
+    <p id="green" class="large">This is some more text.</p>
+
+    <p>The third <span class="underline large bold">word</span> in this paragraph is underlined.</p>
 
 
 </body>
